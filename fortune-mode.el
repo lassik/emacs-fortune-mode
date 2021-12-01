@@ -58,6 +58,8 @@ The file format is the one used by the Unix `fortune` program.  A
 line with a single '%' separates each pair of adjacent fortunes."
   (set (make-local-variable 'font-lock-defaults)
        '(fortune-mode-font-lock-keywords nil t))
+  (set (make-local-variable 'paragraph-separate)
+       "[ \t%]*$")
   (auto-fill-mode 0)
   (visual-line-mode 1))
 
