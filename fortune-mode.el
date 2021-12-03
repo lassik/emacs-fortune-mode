@@ -21,7 +21,7 @@
 
 (defface fortune-mode-dividing-line-face
   '((t :background "gray20"
-       :foreground "gray50"
+       :foreground "gray20"
        :extend t))
   "Face for the '%' line between two fortune cookies."
   :group 'fortune)
