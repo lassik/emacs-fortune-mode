@@ -42,7 +42,7 @@
      (0 'font-lock-variable-name-face))
 
     ;; Incorrectly spelled dividing '%' line.
-    ("^[ \t]*%+[ \t%]*\n"
+    ("^[ \t]*%+[ \t%]*$"
      (0 'font-lock-warning-face))
 
     ;; Warn about hard tabs.
