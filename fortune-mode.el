@@ -60,7 +60,6 @@ line with a single '%' separates each pair of adjacent fortunes."
        '(fortune-mode-font-lock-keywords nil t))
   (set (make-local-variable 'paragraph-separate)
        "[ \t%]*$")
-  (auto-fill-mode 0)
   (visual-line-mode 1))
 
 ;;;###autoload
