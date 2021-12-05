@@ -19,7 +19,7 @@
 ;; This is free software; you can redistribute them and/or modify them
 ;; under the terms of the GNU General Public License as published by
 ;; the Free Software Foundation; either version 2, or (at your option)
-;; any later version.§q
+;; any later version.
 
 ;; This software is distributed in the hope that it will be useful,
 ;; but WITHOUT ANY WARRANTY; without even the implied warranty of
